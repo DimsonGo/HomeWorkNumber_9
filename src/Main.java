@@ -7,7 +7,7 @@ public class Main {
         System.out.println(hogwarts.getTitle() + " : " + author.getFirstname() + " " + author.getLastname() + " Издание: " +  hogwarts.getPublisherYear() + " года");
 
         System.out.println();
-        Author jamesBrody = new Author("Джеймс", "Броуди");
+        Author jamesBrody = new Author("Джеймсон", "Броуди"); //
         Book farCry3 = new Book("Far Cry 3", jamesBrody, 2013);
         System.out.println(farCry3.getTitle() + ": " + jamesBrody.getFirstname() + " " + jamesBrody.getLastname() + ": Полное издание "  + farCry3.getPublisherYear() + " Года");
 
